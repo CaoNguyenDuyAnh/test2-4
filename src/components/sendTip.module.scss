@@ -1,0 +1,97 @@
+.tipContainer {
+  padding: 16px 27px;
+  align-items: center;
+  &__avatar {
+    margin-right: 9px;
+  }
+  a {
+    margin-left: 4px;
+    text-decoration: none;
+    color: #00AAFF;
+  }
+  .tipContainer__textArea {
+    font-size: 14px;
+    min-height: 108px;
+    
+  }
+  .tipContainer__balance {
+    display: flex;
+    margin: 16px 0;
+    .tipContainer__balanceDetail {
+      color: #9B9B9B;
+      margin-left: 12px;
+      text-align: left;
+      .tipContainer__balanceIcon {
+        margin-left: 10px;
+      }
+    }
+  }
+  .tipContainer__button {
+    padding: 25px 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #425F6D;
+  }
+  .tipContainer__input {
+    display: flex;
+    align-items: center;
+    padding: 14px 0;
+    .tipContainer__field {
+      width: fit-content;
+      font-size: 48px;
+      line-height: 18px;
+      color: #425F6D;
+      font-weight: 500;
+      border-right: 5px solid #425F6D;
+      border-radius: 0;
+    }
+    span {
+      font-weight: 500;
+      font-size: 32px;
+      color: #A1B4C9;
+      margin-left: 6px;
+    }
+  }
+  
+  
+  .userInfo {
+    display: flex;
+    align-items: center;
+    &__avatar {
+      margin-right: 9px;
+    }
+    a {
+      margin-left: 4px;
+      text-decoration: none;
+      color: #00AAFF;
+    }
+    span {
+      color: #000;
+      font-size: 14px;
+    }
+  }
+}
+
+.tipKeyboard {
+  justify-content: flex-end;
+  background-color: #CED2D9;
+  padding: 6px 4px 6px 0;
+  .tipKeyboard__button {
+    
+    min-width: 117px;
+    min-height: 46px;
+    font-size: 25px;
+    justify-content: center;
+    line-height: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    &_word {
+      font-weight: 700;
+      width: 100%;
+      font-size: 10px;
+    }
+  }
+}

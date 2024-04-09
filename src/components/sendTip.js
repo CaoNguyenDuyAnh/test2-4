@@ -1,6 +1,6 @@
 import { WalletFilled, CaretDownOutlined } from "@ant-design/icons";
 import { Avatar, Input, Button, Flex } from "antd";
-import style from "../App.module.scss";
+import style from "./sendTip.module.scss";
 import { useState } from "react";
 
 export default function SendTip(props) {
