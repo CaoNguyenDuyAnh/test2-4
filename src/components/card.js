@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import style from "../App.module.scss";
 export default function Card(props) {
   const [isClicked, setIsClicked] = useState(true);
   const { icon, title, setValue, id, valueData } = props;
@@ -13,7 +13,7 @@ export default function Card(props) {
   };
   console.log(valueData);
   return (
-    <div className={isClicked ? "card" : "card card-active"}>
+    <div className={isClicked ? style.card : "card card-active"}>
       <img className="card__img" src={icon} alt="" />
       <h3>{title}</h3>
       <button
